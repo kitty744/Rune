@@ -21,7 +21,7 @@ It combines Go’s clear syntax and performance mindset with Python’s readabil
 ## Example Syntax
 
 ### Variable Declaration
-\`\`\`bash
+\`\`\`rune
 let x = 42
 let name = "Rune"
 \`\`\`
