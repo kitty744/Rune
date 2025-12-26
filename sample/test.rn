@@ -1,0 +1,25 @@
+let name = "John" + "Doe"
+
+fn main(args) {
+    print(name)
+    print(args)
+
+    let a = 10;
+    if (a < 20) {a = a + 1}
+
+    print(len(a))
+
+    let x = add(10, 20)
+
+    print(x) // (30)    
+}
+
+fn add(a, b) {a+b}
+
+fn sub(a, b) {a-b}
+
+fn div(a, b) {a/b}
+
+fn mul(a, b) {a*b}
+
+fn pow(a, b) {a^b}
