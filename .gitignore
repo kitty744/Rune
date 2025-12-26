@@ -1,0 +1,77 @@
+# -----------------------
+# Go build artifacts
+# -----------------------
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+pkg/
+vendor/
+
+# -----------------------
+# Go modules
+# -----------------------
+go.sum
+
+# -----------------------
+# Logs and temporary files
+# -----------------------
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# -----------------------
+# IDE / Editor files
+# -----------------------
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.sublime-workspace
+*.sublime-project
+*.tmproj
+*.DS_Store
+*.directory
+Thumbs.db
+
+# -----------------------
+# OS generated files
+# -----------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+desktop.ini
+$RECYCLE.BIN/
+
+# -----------------------
+# Node / JS stuff (for VS Code extensions)
+# -----------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -----------------------
+# Coverage files
+# -----------------------
+coverage.out
+*.coverprofile
+
+# -----------------------
+# Temporary build folders
+# -----------------------
+.build/
+dist/
+out/
